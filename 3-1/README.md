@@ -27,7 +27,7 @@ D3.jsは、残念ながらデータを入れればすぐグラフができると
 
 D3.jsは、htmlの'<head>'タグ内に以下のコードを書くだけで、導入ができます。
 
-```html:sample
+```html
 <script src="https://d3js.org/d3.v5.min.js"></script>
 ```
 
