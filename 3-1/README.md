@@ -31,13 +31,17 @@ D3.jsは、htmlの'<head>'タグ内に以下のコードを書くだけで、導
 <script src="https://d3js.org/d3.v5.min.js"></script>
 ```
 
-なお、古いバージョンを読み込みたいときは、v5をv3などに変更します。
-
 これで、JavaScriptなどにスクリプトを書く際に、D3.jsで用意している様々なメソッドを使用することができるようになります。
-
+なお、古いバージョンを読み込みたいときは、上記のv5をv3などに変更します。
 
 ## 基本操作 select, append, attr
 
+ここからは、JavaScriptとD3.jsを使用して、HTML内の要素を動的に変更していきます。
 D3を使えば、SVGを簡単に扱えます。まず、基本的な操作であるselect, append, attrについて解説します。
 
-'d3.select("#myGraph")'
+```js
+d3.select("#myGraph")
+  .append("rect")
+  .attr("width", 40)
+  .attr("height", 40)
+```
