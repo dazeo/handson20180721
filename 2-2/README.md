@@ -5,4 +5,4 @@ SVGに慣れるために、ロボットの絵を描いてみましょう。
 
 なお、SVGの要素は後に描いたものが上に重なるように表示されるので注意。
 
-![image](http://www.ei-ic.sakura.ne.jp/handson20180721/2-2_01.png)
+![image](http://www.ei-ic.sakura.ne.jp/handson20180721/img/2-2_01.png)
