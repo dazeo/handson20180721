@@ -12,7 +12,7 @@ D3.jsを使えば、2-2の棒グラフのような複雑な図形についても
 D3.jsは、残念ながらデータを入れればすぐグラフができるという類のものではありません。
 しかし、コツさえ掴んでしまえば、どんなものでも描けてしまいます。
 
-![image](http://www.ei-ic.sakura.ne.jp/handson20180721/img/3-1_01.png)
+![image](http://www.ei-ic.sakura.ne.jp/handson20180721/img/3-1_01.png)  
 [D3.js](https://d3js.org/)
 <br>
 
