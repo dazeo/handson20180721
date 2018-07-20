@@ -1,4 +1,6 @@
-**1-1 WEBページの基本**
+#1-1 WEBページの基本
+
+##HTMLの話
 
 WEBページは、HTMLという拡張子のファイルでできている。
 HTMLとは、HyperText Markup Languageの略であり、通常の文書をマークアップして機能を拡張したもの。
@@ -9,12 +11,15 @@ HTMLファイルをテキストエディタで表示してみると、本文の�
 ![image](http://www.ei-ic.sakura.ne.jp/handson20180721/img/1-1_01.png)
 
 
+##CSSの話
 
 ページの背景色や文字の大きさ、その他様々なデザインに関することは、CSS（Cascading Style Sheets）という言語によって指定される。
 CSSは、HTMLファイル内に書き込むこともできるが、通常は.cssという別ファイルにて管理される。
 
 ![image](http://www.ei-ic.sakura.ne.jp/handson20180721/img/1-1_02.png)
 
+
+##クライアントサイド・サーバーサイド
 
 HTMLやCSS、JavaScriptなどのファイルは、「クライアントサイド」のプログラムである。
 クライアントサイドとは、ファイルをサーバーから受け取ったあと、表示する端末がそれらのプログラムを実行するという意味である。
