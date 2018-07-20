@@ -39,9 +39,24 @@ D3.jsは、htmlの'<head>'タグ内に以下のコードを書くだけで、導
 ここからは、JavaScriptとD3.jsを使用して、HTML内の要素を動的に変更していきます。
 D3を使えば、SVGを簡単に扱えます。まず、基本的な操作であるselect, append, attrについて解説します。
 
+index.html
+```html
+<body>
+  <svg id="myGraph">
+  </svg>
+  <script src="main.js"></script>
+</body>
+```
+
+main.js
 ```js
 d3.select("#myGraph")
   .append("rect")
   .attr("width", 40)
   .attr("height", 40)
 ```
+
+selectは、HTML内の要素を検索して、条件に合致する要素を一つだけ選択するメソッドです。
+上記スクリプトでは、IDがmyGraphである要素を取得して返します。（'#はIDを意味します。）
+
+次のappendでは、selectで選択した要素の下に、新しい要素を追加します。
