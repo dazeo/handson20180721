@@ -2,8 +2,8 @@ $("#map").width("100%")
 $("#map").height("600px")
 
 const basemap = {
-    "URL": "http://{s}.tile.stamen.com/terrain/{z}/{x}/{y}.png",
-    "attribution": "Map tiles by Stamen Design, under CC BY 3.0. Data by OpenStreetMap, under CC BY SA."
+  "URL": "http://{s}.tile.osm.org/{z}/{x}/{y}.png",
+  "attribution": "&copy; OpenStreetMap contributors"
   }
 
 var base = new L.TileLayer(basemap.URL, {

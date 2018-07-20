@@ -1,0 +1,7 @@
+DirectoryIndex index.htm index.shtml index.php index.cgi
+Options +Indexes
+AuthUserFile /home/ei-ic/www/handson20180721/.htpasswd
+AuthType Basic
+AuthName "Web access"
+Satisfy all
+Order deny,allow
