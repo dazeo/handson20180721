@@ -29,7 +29,7 @@ D3.jsは、htmlの'<head>'タグ内に以下のコードを書くだけで、導
 
 ```html:sample
 <script src="https://d3js.org/d3.v5.min.js"></script>
-```(
+```
 
 なお、古いバージョンを読み込みたいときは、v5をv3などに変更します。
 
