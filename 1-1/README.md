@@ -9,16 +9,16 @@ HTMLファイルをテキストエディタで表示してみると、本文の�
 文章の構造や、図やリンクの挿入などは、このタグによって制御されており、WEBブラウザがHTMLファイルを読み込む際に、タグに基づいてページの再構築を行う。
 
 ![image](http://www.ei-ic.sakura.ne.jp/handson20180721/img/1-1_01.png)
-
-
+  
+  
 ## CSSの話
 
 ページの背景色や文字の大きさ、その他様々なデザインに関することは、CSS（Cascading Style Sheets）という言語によって指定される。
 CSSは、HTMLファイル内に書き込むこともできるが、通常は.cssという別ファイルにて管理される。
 
 ![image](http://www.ei-ic.sakura.ne.jp/handson20180721/img/1-1_02.png)
-
-
+  
+  
 ## クライアントサイド・サーバーサイド
 
 HTMLやCSS、JavaScriptなどのファイルは、「クライアントサイド」のプログラムである。
