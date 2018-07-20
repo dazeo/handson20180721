@@ -42,8 +42,7 @@ D3を使えば、SVGを簡単に扱えます。まず、基本的な操作であ
 index.html
 ```html
 <body>
-  <svg id="myGraph">
-  </svg>
+  <svg id="myGraph"></svg>
   <script src="main.js"></script>
 </body>
 ```
@@ -53,10 +52,18 @@ main.js
 d3.select("#myGraph")
   .append("rect")
   .attr("width", 40)
-  .attr("height", 40)
+  .attr("height", 60)
 ```
 
 selectは、HTML内の要素を検索して、条件に合致する要素を一つだけ選択するメソッドです。
-上記スクリプトでは、IDがmyGraphである要素を取得して返します。（'#はIDを意味します。）
+上記スクリプトでは、IDがmyGraphである要素（上記の場合SVG）を取得して返します。（#はIDを意味します。）
 
-次のappendでは、selectで選択した要素の下に、新しい要素を追加します。
+次のappendでは、selectで選択した要素の下に、新しい要素を追加します。ここではrectが追加されます。その後、追加された要素を次のメソッドに渡します。
+
+そして、attrでは受け取った要素の属性情報を変更します。ここでは、widthを40pxに、heightを60pxに変更しています。
+
+このように、D3.jsを使えば、HTML内の要素を簡単に書き換えることができます。つまり、ユーザーの反応に応じて様々に変化するものが作れるということです。  
+  
+
+## 基本操作 data, enter
+
