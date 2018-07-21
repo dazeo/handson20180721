@@ -1,6 +1,4 @@
-# handson20180721
 
-今日の内容
 * [1-1 WEBページの基本](https://github.com/ei-ichiro/handson20180721/tree/master/1-1/)
 * [2-1 SVGの基本 SVGとは何か](https://github.com/ei-ichiro/handson20180721/tree/master/2-1/)
 * [2-2 SVGの基本 ロボットを描く](https://github.com/ei-ichiro/handson20180721/tree/master/2-2/)
