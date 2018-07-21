@@ -3,3 +3,53 @@
   height: 500px;
   background-color: #EEEEEE;
 }
+
+#map_minigraph{
+  position: absolute;
+  background-color: white;
+  color: black;
+  display: none;
+  opacity: 0.8;
+  padding: 0.166em 0.833em;
+  font-size: 1.1vw;
+  line-height: 1.4;
+  color: #404040;
+  /* font-family: "Meirvo UI","ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","メイリオ",Meiryo,Arial,Verdana,"ＭＳ Ｐゴシック",sans-serif; */
+  border: solid 0.25em #555;
+  box-sizing: border-box;
+  border-radius: 6.5em;
+  z-index: 1000;
+}
+
+#map_minigraph:before{
+  content: "";
+  position: absolute;
+  bottom: -24px;
+  left: 50%;
+  top: 99%;
+  margin-left: -1em;
+  border: 1em solid transparent;
+  border-top: 1em solid #FFF;
+  z-index: 2;
+}
+
+#map_minigraph:after{
+  content: "";
+  position: absolute;
+  bottom: -30px;
+  left: 50%;
+  top: 100%;
+  margin-left: -1.1em;
+  border: 1.16666em solid transparent;
+  border-top: 1.16666em solid #555;
+  z-index: 1;
+}
+
+.minigraph_label{
+  font-size: 0.8vw;
+  text-anchor: middle;
+}
+.minigraph_label_big{
+  font-size: 1.1vw;
+  text-anchor: middle;
+}
